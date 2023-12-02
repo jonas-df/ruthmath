@@ -1,4 +1,4 @@
-# Ruth multiplication app
+# Ruth's multiplication app
 
 Me and my daughter had fun writing a simple python app for her to practice the multiplication tables.
 
