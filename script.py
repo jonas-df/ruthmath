@@ -34,7 +34,7 @@ def quiz():
             quiz_instance.current_numbers = quiz_instance.generate_numbers()
 
         num1, num2 = quiz_instance.current_numbers
-        question = f"Vad är {num1} gånger {num2}?"
+        question = f"Vad är {num1} x {num2}?"
         return render_template('quiz.html', question=question)
 
     if request.method == 'POST':
